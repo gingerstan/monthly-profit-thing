@@ -158,3 +158,7 @@ for mat, prices in rawMatsConsumablePrices.items():
 	for cons, priceRatio in prices.items():
 		print(f"{cons} cost = {priceRatio},",end=" ")
 	print("")
+
+
+with open("output.json", "w") as file:
+    json.dump(rawMatsConsumablePrices, file, indent=4)
