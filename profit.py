@@ -6,11 +6,6 @@
 #							profit, quantity produced, and overall rank
 
 
-# TODO:
-# Need to link companyIDs here to players
-# account for inflation?
-#
-
 
 
 import json
@@ -21,6 +16,9 @@ with open("company-data-apr26.json",'r', encoding="utf-8") as file:
 with open("prod-data-apr26.json",'r', encoding="utf-8") as file:
 	prodData = json.load(file)
 
+
+#################################################
+# Unit Extraction Cost Stuff
 
 raws = ["ALO","AMM","AR","AUO","BER","BOR","BRM","BTS","CLI","CUO","F","FEO","GAL","H",
 		"H2O","HAL","HE","HE3","HEX","KR","LES","LIO","LST","MAG","MGS","N","NE","O",
@@ -162,3 +160,9 @@ for mat, prices in rawMatsConsumablePrices.items():
 
 with open("output.json", "w") as file:
     json.dump(rawMatsConsumablePrices, file, indent=4)
+
+
+############################################################
+# Multiple-Recipe Stuff
+
+ratInputs = ["GRN","ALG","VEG","NUT","MUS","MAI","BEA"]
