@@ -1,0 +1,182 @@
+{
+    "AHP": {
+        "preferred": 0.75,
+        "alternate": 0.25
+    },
+    "AL": {
+        "preferred": 0.558,
+        "alternate": 0.442
+    },
+    "BBH": {
+        "preferred": 0.6,
+        "alternate": 0.4
+    },
+    "BDE": {
+        "preferred": 0.7,
+        "alternate": 0.3
+    },
+    "BEA": {
+        "preferred": 0.9,
+        "alternate": 0.1
+    },
+    "BHP": {
+        "preferred": 1,
+        "alternate": 0
+    },
+    "BLE": {
+        "preferred": 0.9,
+        "alternate": 0.1
+    },
+    "BSE": {
+        "preferred": 0.6,
+        "alternate": 0.4
+    },
+    "BTA": {
+        "preferred": 0.7,
+        "alternate": 0.3
+    },
+    "C": {
+        "preferred": 0.7,
+        "alternate": 0.3
+    },
+    "DRF": {
+        "preferred": 0.95,
+        "alternate": 0.05
+    },
+    "DW": {
+        "preferred": 0.3,
+        "alternate": 0.7
+    },
+    "EXO": {
+        "preferred": 0.4,
+        "alternate": 0.6
+    },
+    "FE": {
+        "preferred": 0.672,
+        "alternate": 0.328
+    },
+    "GL": {
+        "preferred": 0.45,
+        "alternate": 0.55
+    },
+    "GRA": {
+        "preferred": 0.9,
+        "alternate": 0.1
+    },
+    "GRN": {
+        "preferred": 0.9,
+        "alternate": 0.1
+    },
+    "HCB": {
+        "preferred": 1,
+        "alternate": 0
+    },
+    "HHP": {
+        "preferred": 0.7,
+        "alternate": 0.3
+    },
+    "HOP": {
+        "preferred": 0.85,
+        "alternate": 0.15
+    },
+    "LCB": {
+        "preferred": 1,
+        "alternate": 0
+    },
+    "MAI": {
+        "preferred": 0.8,
+        "alternate": 0.2
+    },
+    "MCB": {
+        "preferred": 1,
+        "alternate": 0
+    },
+    "MUS": {
+        "preferred": 0.8,
+        "alternate": 0.2
+    },
+    "OVE": {
+        "preferred": 0.8,
+        "alternate": 0.2
+    },
+    "PIB": {
+        "preferred": 0.8,
+        "alternate": 0.2
+    },
+    "PPA": {
+        "preferred": 0.6,
+        "alternate": 0.4
+    },
+    "PT": {
+        "preferred": 0.6,
+        "alternate": 0.4
+    },
+    "RAT": {
+        "preferred": 0.2,
+        "alternate": 0.8
+    },
+    "RCO": {
+        "preferred": 0.7,
+        "alternate": 0.3
+    },
+    "RE": {
+        "preferred": 0.88,
+        "alternate": 0.12
+    },
+    "RG": {
+        "preferred": 0.65,
+        "alternate": 0.35
+    },
+    "RHP": {
+        "preferred": 0.95,
+        "alternate": 0.05
+    },
+    "SCB": {
+        "preferred": 1,
+        "alternate": 0
+    },
+    "SF": {
+        "preferred": 0.8,
+        "alternate": 0.2
+    },
+    "SI": {
+        "preferred": 0.6,
+        "alternate": 0.4
+    },
+    "SIO": {
+        "preferred": 0,
+        "alternate": 1
+    },
+    "TA": {
+        "preferred": 0.5,
+        "alternate": 0.5
+    },
+    "TCB": {
+        "preferred": 1,
+        "alternate": 0
+    },
+    "TI": {
+        "preferred": 0.5,
+        "alternate": 0.5
+    },
+    "VCB": {
+        "preferred": 1,
+        "alternate": 0
+    },
+    "VEG": {
+        "preferred": 0.7,
+        "alternate": 0.3
+    },
+    "VSC": {
+        "preferred": 1,
+        "alternate": 0
+    },
+    "WCB": {
+        "preferred": 1,
+        "alternate": 0
+    },
+    "ZR": {
+        "preferred": 0.5,
+        "alternate": 0.2
+    }
+}
