@@ -170,13 +170,13 @@ print("=========================================\nMultiple Input Ratios")
 # matches itemID to the preferred recipes usage ratio
 multiRecipeRatios = {}
 
-multiRecipeRatios["AHP"] = {"preferred" : 0.75, "alternate" : 0.25}
-multiRecipeRatios["AL"] = {"preferred" : 0.558, "alternate" : 0.442}
-multiRecipeRatios["BBH"] = {"preferred" : 0.6, "alternate" : 0.4}
-multiRecipeRatios["BDE"] = {"preferred" : 0.7, "alternate" : 0.3}
-multiRecipeRatios["BEA"] = {"preferred" : 0.9, "alternate" : 0.1}
-multiRecipeRatios["BHP"] = {"preferred" : 1, "alternate" : 0}
-multiRecipeRatios["BLE"] = {"preferred" : 0.9, "alternate" : 0.1}
+multiRecipeRatios["AHP"] = {"8xAL 10xFET 1xHE=>4xAHP" : 0.75, "12xAL 4xWRH 1xHE=>4xAHP" : 0.25}
+multiRecipeRatios["AL"] = {"6xALO 1xC 1xO=>3xAL" : 0.43, "6xALO 1xO 1xC 1xFLX=>4xAL" : 0.56, "2xBER=>1xBE 1xAL 1xSIO" : 0.01}
+multiRecipeRatios["BBH"] = {"2xAL 1xLST=>1xBBH" : 0.6, "2xFE 1xLST=>1xBBH" : 0.4}
+multiRecipeRatios["BDE"] = {"150xPE=>1xBDE" : 0.7, "40xPG=>1xBDE" : 0.3}
+multiRecipeRatios["BEA"] = {"6xH2O=>4xBEA" : 0.9, "1xH2O=>2xBEA" : 0.1}
+multiRecipeRatios["BHP"] = {"12xAL 1xSTL 1xHE=>4xBHP" : 1, "12xAL 1xRE 1xHE=>4xBHP" : 0}
+multiRecipeRatios["BLE"] = {"10xNAB 3xS 2xO=>4xBLE" : 0.9, "1xNA 1xCL 1xO=>3xBLE" : 0.1}
 multiRecipeRatios["BSE"] = {"preferred" : 0.6, "alternate" : 0.4}
 multiRecipeRatios["BTA"] = {"preferred" : 0.7, "alternate" : 0.3}
 multiRecipeRatios["C"] = {"preferred" : 0.7, "alternate" : 0.3} #
